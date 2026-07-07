@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+/*Global CSS*/
+body {
+    font-family: "Open Sans", sans-serif;
+}
+.container {
+    max-width: 1280px;
+}
+.commune-btn {
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+/*Menebar*/
+.header-parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+.header-parent-left h2 {
+    font-size: 45px;
+    font-weight: 800;
+    color: #181818;
+}
+.header-parent-left span {
+    color: #FD6E0A;
+}
+.header-parent-right ul {
+    display: flex;
+    gap: 70px;
+}
+.header-parent-right ul li a {
+    font-size: 20px;
+    color: #474747;
+}
+/*Menebar end*/
