@@ -36,6 +36,17 @@ p {
     font-size: 18px;
     color: #474747;
 }
+h4 {
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 30px;
+}
+/*Global CSS End*/
+
+
+
+
+
 /*Menebar*/
 .header-parent {
     display: flex;
@@ -73,7 +84,7 @@ p {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 80vh;
+    height: 100vh;
 }
 .banner-parent-left h3 {
     font-size: 45px;
@@ -101,3 +112,27 @@ p {
     
 } */
 /*Banner section end*/
+
+
+
+/*About section*/
+.about-me-parent {
+    margin: 100px auto;
+    background-color: #FFF8F3;
+    text-align: center;
+    border-radius: 10px;
+}
+.about-box {
+    padding: 100px 220px;
+}
+.about-me-parent .about-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+.about-me-parent .about-child h5 {
+    font-size: 20px;
+    color: #474747;
+}
+/*About section end*/
