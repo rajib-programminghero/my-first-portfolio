@@ -32,6 +32,9 @@ body {
     padding: 10px 20px;
     cursor: pointer;
 }
+.section-bg-color {
+    background-color: #FFF8F3;
+}
 p {
     font-size: 18px;
     color: #474747;
@@ -40,6 +43,9 @@ h4 {
     font-size: 35px;
     color: #181818;
     margin-bottom: 30px;
+}
+.about-me-parent, .what-i-do-parent {
+    margin: 100px auto;
 }
 /*Global CSS End*/
 
@@ -84,7 +90,7 @@ h4 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 100vh;
+    height: 837px;
 }
 .banner-parent-left h3 {
     font-size: 45px;
@@ -100,9 +106,6 @@ h4 {
     margin-right: 20px;
     margin-top: 30px;
 }
-.section-bg-color {
-    background-color: #FFF8F3;
-}
 .banner-bg {
     background-image: url(./images/header_bg.png);
     background-repeat: no-repeat;
@@ -117,7 +120,6 @@ h4 {
 
 /*About section*/
 .about-me-parent {
-    margin: 100px auto;
     background-color: #FFF8F3;
     text-align: center;
     border-radius: 10px;
@@ -136,3 +138,35 @@ h4 {
     color: #474747;
 }
 /*About section end*/
+
+
+/*What I do section*/
+.what-i-do-parent {
+    text-align: center;
+}
+.what-i-do-parent .what-i-do-firstchild {
+    margin: 0 180px;
+}
+.what-i-do-card-groups {
+    display: flex;
+    gap: 25px;
+    text-align: left !important;
+    margin-top: 50px;
+}
+.single-card h5 {
+    font-size: 20px;
+    color: #181818;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.single-card p {
+    font-size: 16px;
+    color: #757575;
+    line-height: 28px;
+}
+.single-card {
+    border-radius: 5px;
+    box-shadow: 6px 0 50px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+}
+/*What I do section end*/
