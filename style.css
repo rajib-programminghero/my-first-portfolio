@@ -43,7 +43,8 @@ p {
 h3 {
     font-size: 35px;
     color: #181818;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+    text-align: center;
 }
 h4 {
     font-size: 30px;
@@ -58,8 +59,8 @@ h5 {
 h6 {
     font-size: 20px;
 }
-.about-me-parent, .what-i-do-parent, .summary-parent {
-    margin: 100px auto;
+.about-me-parent, .what-i-do-parent, .summary-parent, .my-amazing-work-parent {
+    margin: 120px auto;
 }
 /*Global CSS End*/
 
@@ -192,7 +193,6 @@ h6 {
     gap: 30px;
 }
 .summary-parent h3 {
-    text-align: center;
     margin-bottom: 100px;
 }
 .summary-child h6 {
@@ -205,3 +205,41 @@ h6 {
     opacity: 20%;
 }
 /*Sumarry CSS End*/
+
+
+/*My amazing works*/
+.works-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: 300px;
+    grid-template-areas: 
+    "one two three"
+    "four two five"
+    "four six five"
+    ;
+}
+.works-images img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.box-1 {
+    grid-area: one;
+}
+.box-2 {
+    grid-area: two;
+}
+.box-3 {
+    grid-area: three;
+}
+.box-4 {
+    grid-area: four;
+}
+.box-5 {
+    grid-area: five;
+}
+.box-6 {
+    grid-area: six;
+}
+/*My amazing works end*/
